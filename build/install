@@ -144,3 +144,5 @@ make -s -j"$(getconf _NPROCESSORS_ONLN)"
 # make -s install
 
 echo -e "\nThanks for compiling Phalcon!\nBuild succeed: Please restart your web server to complete the installation\n"
+
+exit 0
