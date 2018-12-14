@@ -50,5 +50,5 @@ if test "$PHP_PHALCON" = "yes"; then
 
 	CPPFLAGS=$old_CPPFLAGS
 
-	PHP_INSTALL_HEADERS([ext/phalcon], [php_phalcon.h])
+	PHP_INSTALL_HEADERS([ext/phalcon], [php_PHALCON.h])
 fi
