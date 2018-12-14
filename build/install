@@ -62,3 +62,5 @@ fi
 
 #Perform the compilation
 phpize && ./configure --enable-phalcon && make && echo -e "\nThanks for compiling Phalcon!\nBuild succeed: Please restart your web server to complete the installation"
+
+exit 0
